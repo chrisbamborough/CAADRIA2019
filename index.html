@@ -1,0 +1,193 @@
+<!doctype html>
+
+<!-- A comment
+<span></span> == black BACKGROUND
+class="fragment" == appear
+data-state="textSlide" == text slides in from the right
+data-background-image="https://dl.dropboxusercontent.com/s/gyh99l75fh4qhxn/00_Traditional.jpg?dl=0" == background
+data-background-size=contain == scales an image to the screen
+data-background-position=center == positions the image on the screen
+class="attribution" == image attribute
+<aside class="notes"></aside> == presenter notes
+ -->
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/CB_black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<!-- TITLE -->
+			<section>
+				<h2>The Nature of Data in Early Modernist Practice</h2>
+				<aside class="notes">Title Slide</aside>
+			</section>
+
+			<!-- INTRO -->
+			<section data-state="textSlide">
+				<h2>Presentation Overview</h2>
+				<p class="fragment">Background Context</p>
+				<p class="fragment">Research Questions</p>
+				<p class="fragment">Findings</p>
+				<p class="fragment">Significance</p>
+				<aside class="notes">Lecture Overview (5 minutes).</aside>
+			</section>
+
+			<!-- RESEARCH CONTEXT -->
+			<section data-background-image="\images\WeissenhofKitchenAnalysisPlans.png" data-background-size=cover>
+				<h2><span>Background Context</span></h2>
+				<h6 class="attribution">Alberti</h6>
+			</section>
+
+			<!-- MACRO QUESTION -->
+			<section>
+				<h2>Macro Question</h2>
+				<aside class="notes">Micro</aside>
+			</section>
+
+			<!-- MICRO QUESTION -->
+			<section>
+				<h2>Micro Question</h2>
+				<aside class="notes">Macro</aside>
+			</section>
+
+			<!-- SIGNIFICANCE -->
+			<section>
+				<h2>Research Significance</h2>
+				<aside class="notes">Significance</aside>
+			</section>
+
+			<!-- INITICAL DATA REGISTER -->
+			<section>
+				<section>
+					<h2>Data Defined</h2>
+					<aside class="notes">Data Defined</aside>
+				</section>
+				<section>
+					<h2>Initial Data Register</h2>
+					<aside class="notes">Data Register</aside>
+				</section>
+			</section>
+
+			<!-- A SHIFT IN OBSERVER -->
+			<section>
+				<h2>A Shift in Observor</h2>
+				<aside class="notes">observor</aside>
+			</section>
+
+			<!-- A NEW ARCHITECTURE -->
+			<section>
+				<h2>A New Architecture</h2>
+				<aside class="notes">New Architecture</aside>
+			</section>
+
+			<!-- THE ECONOMY OF DATA -->
+			<section>
+				<h2>The Economy of Data</h2>
+				<aside class="notes">Data Economy</aside>
+			</section>
+
+			<!-- CULTURAL PATTERNING -->
+			<section>
+				<h2>Cultural Patterning</h2>
+				<aside class="notes">Culture</aside>
+			</section>
+
+			<!-- THE SEIDERLUNG -->
+			<section>
+				<h2>The Seiderlung</h2>
+				<aside class="notes">Seiderlung</aside>
+			</section>
+
+			<!-- DATA MOBILISED -->
+			<section>
+				<h2>Data Mobilised</h2>
+				<aside class="notes">Data Mobilised</aside>
+			</section>
+
+			<!-- NEUFERT -->
+			<section>
+				<h2>Neufert's Centralised Knowledge</h2>
+				<aside class="notes">Neufert's Knowledge</aside>
+			</section>
+
+			<!-- ASSEMBLAGE -->
+			<section>
+				<h2>Data as Static Assemblage</h2>
+				<aside class="notes">Static Assemblage</aside>
+			</section>
+
+			<!-- IMMATERIAL INFRASTRUCTURE -->
+			<section>
+				<h2>Immaterial Infrastructure</h2>
+				<aside class="notes">Immaterial Infrastructure</aside>
+			</section>
+
+			<!-- CONCLUSION -->
+			<section>
+				<h2>Conclusion</h2>
+				<aside class="notes">Conclusion</aside>
+			</section>
+
+			<!-- NEXT STEPS -->
+			<section>
+				<h2>Next Steps</h2>
+				<aside class="notes">Next Steps</aside>
+			</section>
+
+
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function() {
+						hljs.initHighlightingOnLoad();
+					}
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
